@@ -31,7 +31,7 @@ public class TestList {
         maslista.AddObject(new Vector2(1f, 2f));
         maslista.AddObject(new Vector2(1f, 1f));
         maslista.AddObject(new Vector2(1f, 1f));
-        maslista.AddObject(new Vector2(1f, 1f));
+        maslista.AddObject(new Vector2(1f, 2f));
         System.out.println(Arrays.toString(maslista.IndexesOf(new Vector2(1f, 1f))));
         
        

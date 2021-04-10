@@ -21,4 +21,5 @@ public interface I_LinkedList <T> {
     T RemoveObject(int index);
     
     int IndexOf(T obj);
+    public int[] IndexesOf(T obj);
 }

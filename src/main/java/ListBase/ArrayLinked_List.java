@@ -125,11 +125,14 @@ public class ArrayLinked_List <T> implements I_LinkedList <T>{
         }
     }
     
+    @Override
      public int[] IndexesOf(T obj){
          int [] resultados = new int[size];
          for(int i = 0; i < size; i++){
             if(elements[i].equals(obj)){
-                int resultado = resultados[i]++;
+                  resultados[i] = i;
+            }else{
+                resultados[i] = -1;
             }
         }
         return resultados;
